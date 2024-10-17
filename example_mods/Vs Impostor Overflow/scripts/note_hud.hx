@@ -33,12 +33,13 @@ function getSetting(setting, def) {
 	var setting = game.callOnHScript('getScrSetting', [setting, def]);
 	return setting;
 }
+
 function onCountdownStarted() {
 	noteSparks = getSetting('holdscoring', true);
 	Paths.getSparrowAtlas('holdCoverShader');
 }
 
-function onCreate() {
+function onCountdownStarted() {
 	coverGroup = new FlxTypedSpriteGroup();
 	coverGroup.cameras = [game.camHUD];
 	game.add(coverGroup);
@@ -127,6 +128,7 @@ function onSpawnNote(note) {
 	if (note.isSustainNote) {
 		var strum = getStrum(note.mustPress, note.noteData);
 		note.multAlpha = 1;
+		if (PlayState.isPixelStage) note.scale.x = 6 * .7;
 		if (StringTools.endsWith(note.animation.name, 'end')) note.scale.y = note.scale.x;
 		note.updateHitbox();
 		note.offsetX = (strum.width - note.width) * .5;
@@ -309,13 +311,6 @@ function onUpdatePost(elapsed:Float) {
 			if (strum.animation.name != 'hit') instance.visible = false;
 		}
 	}
-	if (!flickered) {
-		while (flicker.length > 0) {
-			var sus = flicker.shift();
-			sus.visible = true;
-		}
-	} else
-		flickered = false;
 }
 
 //RGB FUNCTIONS CAUSE CUSTOMFLXCOLOR IS ASS

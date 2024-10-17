@@ -97,6 +97,13 @@ function ghostTrail(char, noteData, reactivate)
 	doTweenAlpha(ghost, ghost, 0, 0.75, 'linear')
 
 	local stage = string.lower(curStage)
+	if stage == 'who' or stage == 'voting' or stage == 'nuzzus' or stage == 'idk' then
+		--erm
+	elseif stage == 'cargo' or stage == 'finalem' then
+		triggerEvent('Add Camera Zoom', '0.015', '0.015')
+	else
+		triggerEvent('Add Camera Zoom', '0.015', '0.03')
+	end
 
     -- runHaxeCode([[
     --     game.getLuaObject(']]..ghost..[[').shader = game.]]..char..[[.shader;
