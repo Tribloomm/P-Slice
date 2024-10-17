@@ -1,0 +1,27 @@
+[
+	{
+		"save": "oWeek1_nomiss",
+		"name": "Bucken' Disaster!",
+		"description": "Beat Bucken Berry's Week on Hard with no Misses."
+	},
+	{
+		"save": "oWeek2_nomiss",
+		"name": "Who's Choppin' Tomatoes?",
+		"description": "Beat Tomatungus's Week on Hard with no Misses."
+	},
+	{
+		"save": "oWeek3_nomiss",
+		"name": "Who You Gonna Call? Ghost Busters!",
+		"description": "Beat Cyan's Week on Hard with no Misses."
+	},
+	{
+		"save": "oWeek4_nomiss",
+		"name": "Biggest Betrayal!",
+		"description": "Beat RHM's Week on Hard with no Misses."
+	},
+	{
+		"save": "oWeek5_nomiss",
+		"name": "Pompest of Circumstances",
+		"description": "Beat Longus Grandus's Week on Hard with no Misses."
+	}
+]

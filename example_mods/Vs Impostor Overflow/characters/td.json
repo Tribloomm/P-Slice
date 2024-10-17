@@ -1,0 +1,58 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-64,
+				-104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "firstDeath",
+			"indices": [],
+			"name": "td dies"
+		},
+		{
+			"offsets": [
+				-64,
+				-104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathLoop",
+			"indices": [],
+			"name": "td Dead Loop"
+		},
+		{
+			"offsets": [
+				-64,
+				-104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "deathConfirm",
+			"indices": [],
+			"name": "td Dead confirm"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/tomatungusdead",
+	"position": [
+		113,
+		496
+	],
+	"healthicon": "tomato",
+	"flip_x": false,
+	"healthbar_colors": [
+		200,
+		45,
+		48
+	],
+	"camera_position": [
+		150,
+		-60
+	],
+	"sing_duration": 4,
+	"scale": 6,
+	"_editor_isPlayer": true
+}

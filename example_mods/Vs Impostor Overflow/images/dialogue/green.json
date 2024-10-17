@@ -1,0 +1,102 @@
+{
+	"position": [
+		210,
+		180
+	],
+	"dialogue_pos": "left",
+	"scale": 1.7,
+	"image": "green",
+	"animations": [
+		{
+			"loop_name": "GC excited",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GC excited0000",
+			"anim": "excitedc",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GC happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GC happy0000",
+			"anim": "happyc",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GC nervous",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GC nervous0000",
+			"anim": "nervousc",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GC threatening",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GC threatening0000",
+			"anim": "threatiningc",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GI happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GI happy0000",
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GI neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GI neutral0000",
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GI upset",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GI upset0000",
+			"anim": "upset",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

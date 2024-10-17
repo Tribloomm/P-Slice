@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "hi",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "talk",
+			"text": "hi",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "confused",
+			"text": "Im a tomato",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "neutral",
+			"text": "ok",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		}
+	]
+}

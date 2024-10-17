@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="RHM.png">
+<SubTexture name="down0000" x="0" y="0" width="629" height="419" frameX="-184" frameY="-22" frameWidth="887" frameHeight="410" />
+<SubTexture name="idle0000" x="0" y="419" width="579" height="427" frameX="-156" frameY="-13" frameWidth="887" frameHeight="410" />
+<SubTexture name="left0000" x="0" y="846" width="615" height="435" frameX="-135" frameY="-12" frameWidth="887" frameHeight="410" />
+<SubTexture name="right0000" x="0" y="1281" width="498" height="445" frameX="-199" frameY="0" frameWidth="887" frameHeight="410" />
+<SubTexture name="up0000" x="0" y="1726" width="599" height="438" frameX="-191" frameY="-2" frameWidth="887" frameHeight="410" />
+</TextureAtlas>

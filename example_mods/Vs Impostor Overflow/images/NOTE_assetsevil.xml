@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="NOTE_assetsevil.png">
+<SubTexture name="NOTE_assetsevil blue0000" x="0" y="142" width="142" height="139" frameX="-4" frameY="-3" frameWidth="149" frameHeight="146" />
+<SubTexture name="NOTE_assetsevil purple0000" x="0" y="0" width="139" height="142" frameX="-4" frameY="-3" frameWidth="146" frameHeight="149" />
+<SubTexture name="NOTE_assetsevil red0000" x="139" y="0" width="138" height="141" frameX="-4" frameY="-5" frameWidth="148" frameHeight="152" />
+<SubTexture name="NOTE_assetsevil green0000" x="277" y="0" width="144" height="141" frameX="-5" frameY="-4" frameWidth="153" frameHeight="150" />
+</TextureAtlas>

@@ -1,0 +1,10 @@
+{
+	"confirm_anim": "Menu_Longus idle",
+	"idle_anim": "Menu_Longus idle",
+	"position": [
+		100,
+		100
+	],
+	"scale": 0.44,
+	"image": "Menu_Longus"
+}

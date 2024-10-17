@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="greenboiler.png">
+<SubTexture name="greenboiler idle0000" x="0" y="0" width="728" height="794" frameX="-24" frameY="-58" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0001" x="0" y="0" width="728" height="794" frameX="-24" frameY="-58" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0002" x="728" y="0" width="733" height="798" frameX="-18" frameY="-38" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0003" x="728" y="0" width="733" height="798" frameX="-18" frameY="-38" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0004" x="0" y="798" width="727" height="802" frameX="-12" frameY="-23" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0005" x="0" y="798" width="727" height="802" frameX="-12" frameY="-23" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0006" x="727" y="798" width="727" height="805" frameX="-3" frameY="-14" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0007" x="727" y="798" width="727" height="805" frameX="-3" frameY="-14" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0008" x="0" y="1603" width="724" height="805" frameX="-1" frameY="-7" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0009" x="0" y="1603" width="724" height="805" frameX="-1" frameY="-7" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0010" x="724" y="1603" width="720" height="805" frameX="0" frameY="0" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0011" x="724" y="1603" width="720" height="805" frameX="0" frameY="0" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0012" x="724" y="1603" width="720" height="805" frameX="0" frameY="0" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0013" x="724" y="1603" width="720" height="805" frameX="0" frameY="0" frameWidth="712" frameHeight="812" />
+<SubTexture name="greenboiler idle0014" x="724" y="1603" width="720" height="805" frameX="0" frameY="0" frameWidth="712" frameHeight="812" />
+</TextureAtlas>

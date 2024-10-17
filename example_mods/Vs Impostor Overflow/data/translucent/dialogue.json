@@ -1,0 +1,164 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Im a ghost",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "talk",
+			"text": "we already went over that dumbass",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "happy",
+			"text": "Ueyah",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "neutral",
+			"text": "is being dead your only identifiable trait",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "talk",
+			"text": "Basically",
+			"boxState": "normal",
+			"portrait": "gf",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "happy",
+			"text": "lmfaooo imagine",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "glint",
+			"text": "And you're only personality trait is making beep boop sounds for a living",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "happy",
+			"text": "*your",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "q",
+			"text": "...",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "suspect",
+			"text": "Huh, maybe your not just a beep boop singing person,",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "sad",
+			"text": "*you're",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "glint",
+			"text": "Your other personality trait is being a piece of shit! Wow, who could've seen that coming?",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.04,
+			"portrait": "gf"
+		},
+		{
+			"expression": "sad",
+			"text": "why are you so mean? ;(",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "q",
+			"text": "Guess that's also my personality trait since ive been forgotten way too many times",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "happy",
+			"text": "congratulations! you are officially a dick now",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "happy",
+			"text": "so what now? another song?",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "happy",
+			"text": "i guess",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "q",
+			"text": "*I guess.",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "mad",
+			"text": "bruv im trying my hardest to be nice with you rn",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "uwu",
+			"text": "*Bruh,",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		}
+	]
+}

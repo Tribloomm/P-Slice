@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+			"expression": "happy",
+			"text": "you dont seem so tomate rude to me",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "suspect",
+			"text": "what",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "neutral",
+			"text": "that was the name of the last song",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "neutral",
+			"text": "oh",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "suspect",
+			"text": "its tomato red in dutch but its spelt as tomate rude instead of tomaat rood",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "happy",
+			"text": "that doesnt make sense but ok",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		}
+	]
+}

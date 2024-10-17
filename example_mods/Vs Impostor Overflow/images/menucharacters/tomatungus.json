@@ -1,0 +1,10 @@
+{
+	"confirm_anim": "Menu_Tomatungus idle",
+	"idle_anim": "Menu_Tomatungus idle",
+	"position": [
+		155,
+		10
+	],
+	"scale": 0.55,
+	"image": "Menu_Tomatungus"
+}

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="impostorb.png">
+<SubTexture name="impostor stayfresh0000" x="0" y="0" width="480" height="492" frameX="0" frameY="0" frameWidth="440" frameHeight="452" />
+<SubTexture name="impostor right0000" x="480" y="0" width="550" height="595" frameX="0" frameY="0" frameWidth="510" frameHeight="555" />
+<SubTexture name="impostor left0000" x="1030" y="0" width="475" height="621" frameX="0" frameY="0" frameWidth="435" frameHeight="581" />
+<SubTexture name="impostor up0000" x="0" y="621" width="521" height="608" frameX="0" frameY="0" frameWidth="481" frameHeight="568" />
+<SubTexture name="impostorb idle0000" x="521" y="621" width="625" height="449" frameX="-5" frameY="-107" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0001" x="521" y="621" width="625" height="449" frameX="-5" frameY="-107" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0002" x="1146" y="621" width="580" height="484" frameX="-10" frameY="-71" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0003" x="1146" y="621" width="580" height="484" frameX="-10" frameY="-71" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0004" x="0" y="1229" width="559" height="521" frameX="-2" frameY="-21" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0005" x="0" y="1229" width="559" height="521" frameX="-2" frameY="-21" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0006" x="559" y="1229" width="534" height="542" frameX="0" frameY="0" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0007" x="559" y="1229" width="534" height="542" frameX="0" frameY="0" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0008" x="1093" y="1229" width="556" height="542" frameX="0" frameY="0" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0009" x="1093" y="1229" width="556" height="542" frameX="0" frameY="0" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0010" x="0" y="1771" width="572" height="541" frameX="-1" frameY="-1" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0011" x="0" y="1771" width="572" height="541" frameX="-1" frameY="-1" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0012" x="0" y="1771" width="572" height="541" frameX="-1" frameY="-1" frameWidth="590" frameHeight="517" />
+<SubTexture name="impostorb idle0013" x="0" y="1771" width="572" height="541" frameX="-1" frameY="-1" frameWidth="590" frameHeight="517" />
+</TextureAtlas>

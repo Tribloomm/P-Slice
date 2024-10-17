@@ -1,0 +1,164 @@
+{
+	"dialogue": [
+		{
+			"expression": "happy",
+			"text": "that was a good one!",
+			"boxState": "normal",
+			"portrait": "btest",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "happy",
+			"text": "yeah",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "brb",
+			"text": "well, i think this wraps it up for now, see you around!",
+			"boxState": "normal",
+			"portrait": "btest",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "happy",
+			"text": "not so fast, it is me, red impostor fnf",
+			"boxState": "normal",
+			"portrait": "red",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "angry",
+			"text": "holy shit not again",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "neutral",
+			"text": "it is also me, green impostor fnf",
+			"boxState": "normal",
+			"portrait": "green",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "neutral",
+			"text": "oh my",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "happy",
+			"text": "your new \"friend\" is going to be held at gun and knife point.",
+			"boxState": "normal",
+			"portrait": "green",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "neutral",
+			"text": "ok",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "happy",
+			"text": "He will also be forced to sing a song I WROTE :)",
+			"boxState": "normal",
+			"portrait": "red",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "happy",
+			"text": "I literally do not care at all",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "mad",
+			"text": "i swear to god i will make sure me and Green kill you in the most painful way possible if its the last thing i do. i will personally make sure that you and your girlfriend will never see the light of day ever again you little piece of shit. Did your mother ever tell you that you were a disapointment to your family bloodline? probably not since you probably don't even have one. Actually, you probably dont have EITHER of your parents present in your life AT ALL you fucking blue haired prick. You were probably found in a dumpster filled with trash just like you. That's the only thing that you'll actually relate to in your sad pathetic life.",
+			"boxState": "normal",
+			"portrait": "red",
+			"speed": 0.03,
+			"sound": "redd"
+		},
+		{
+			"expression": "happy",
+			"text": "what",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "neutral",
+			"text": "fuck you",
+			"boxState": "normal",
+			"portrait": "red",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "pissed",
+			"text": "I literally can't sight read this because of your stupid ass chickenscratch handwriting",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.045,
+			"portrait": "btest"
+		},
+		{
+			"expression": "neutral",
+			"text": "stfu nobodys taking to you",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "red"
+		},
+		{
+			"expression": "sad",
+			"text": ":(",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "btest"
+		},
+		{
+			"expression": "suspect",
+			"text": "so like when do i get to say something",
+			"boxState": "normal",
+			"sound": "gfd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "",
+			"boxState": "normal",
+			"sound": "silenced",
+			"speed": 0.05,
+			"portrait": "nobody"
+		},
+		{
+			"expression": "q",
+			"text": "wowww ok i see how it is",
+			"boxState": "normal",
+			"sound": "gfd",
+			"speed": 0.05,
+			"portrait": "gf"
+		}
+	]
+}

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="tomatungusdead.png">
+<SubTexture name="td dies0000" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td dies0001" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td dies0002" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td dies0003" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td dies0004" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td Dead Loop0000" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td Dead Loop0002" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td Dead Loop0003" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td Dead Loop0004" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td Dead confirm0000" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td Dead confirm0001" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td Dead confirm0002" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td Dead confirm0003" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+<SubTexture name="td Dead confirm0004" x="0" y="0" width="64" height="43" frameX="0" frameY="0" frameWidth="62" frameHeight="41" />
+</TextureAtlas>

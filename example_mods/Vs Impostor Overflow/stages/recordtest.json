@@ -1,0 +1,15 @@
+{
+	"directory": "",
+	"defaultZoom": 0.8, //0.66 for grey
+	"isPixelStage": false,
+
+	"boyfriend": [832, 70],
+	"girlfriend": [215, 45], //290, -0 DEFAULT CAUSE IDK IF WE'RE ACTUALLY GONNA HAVE GF SIT ON THE TABLE, CHAIR OR SPEAKERS BEHIND THE TABLE
+	"opponent": [-60, 60],
+	"hide_girlfriend": false,
+
+	"camera_boyfriend": [0, -70],
+	"camera_opponent": [0, -20],
+	"camera_girlfriend": [0, -20],
+	"camera_speed": 1
+}

@@ -1,0 +1,9 @@
+{
+  "timeFormat": "ms",
+  "artist": "Tribloom", //The part after the intro was done by Kawai Sprite.
+  "songName": "Public Ejection (Shit)",
+  "timeChanges": [{ "d": 4, "n": 4, "t": 0, "bt": [4, 4, 4, 4], "bpm": 1 }],
+  "generatedBy": "Manual (by EliteMasterEric)",
+  "looped": false,
+  "version": "2.0.0"
+}

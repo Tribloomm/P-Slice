@@ -1,0 +1,26 @@
+{
+	"storyName": "Rambunctious Rumble",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "Week 1",
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Rumble"
+			"rumble",
+			[
+				155,
+				91,
+				71
+			]
+		]
+	],
+	"weekName": "Week 2"
+}

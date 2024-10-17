@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Menu_Tomatungus.png">
+<SubTexture name="Menu_Tomatungus idle0000" x="0" y="0" width="425" height="364" frameX="0" frameY="-120" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0001" x="0" y="0" width="425" height="364" frameX="0" frameY="-120" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0002" x="425" y="0" width="401" height="374" frameX="-14" frameY="-110" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0003" x="425" y="0" width="401" height="374" frameX="-14" frameY="-110" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0004" x="0" y="374" width="385" height="407" frameX="-30" frameY="-77" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0005" x="0" y="374" width="385" height="407" frameX="-30" frameY="-77" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0006" x="385" y="374" width="370" height="484" frameX="-46" frameY="0" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0007" x="385" y="374" width="370" height="484" frameX="-46" frameY="0" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0008" x="0" y="858" width="381" height="456" frameX="-34" frameY="-28" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0009" x="0" y="858" width="381" height="456" frameX="-34" frameY="-28" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0010" x="381" y="858" width="387" height="439" frameX="-28" frameY="-45" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0011" x="381" y="858" width="387" height="439" frameX="-28" frameY="-45" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0012" x="381" y="858" width="387" height="439" frameX="-28" frameY="-45" frameWidth="385" frameHeight="444" />
+<SubTexture name="Menu_Tomatungus idle0013" x="381" y="858" width="387" height="439" frameX="-28" frameY="-45" frameWidth="385" frameHeight="444" />
+</TextureAtlas>

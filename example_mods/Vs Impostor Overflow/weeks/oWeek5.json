@@ -1,0 +1,27 @@
+{
+	"storyName": "longus grandus",
+	"difficulties": "Hard,",
+	"hideFreeplay": false,
+	"weekBackground": "comms",
+	"weekBefore": "Week 1",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"longus",
+		"bfo",
+		"gfo"
+	],
+	"songs": [
+		[
+			"Dilemma",
+			"longus-freeplay",
+			[
+				235,
+				60,
+				155
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"weekName": "Week 3"
+}

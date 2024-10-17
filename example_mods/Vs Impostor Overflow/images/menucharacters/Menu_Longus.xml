@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Menu_Longus.png">
+<SubTexture name="Menu_Longus idle0000" x="0" y="0" width="415" height="613" frameX="-7" frameY="-28" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0001" x="0" y="0" width="415" height="613" frameX="-7" frameY="-28" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0002" x="415" y="0" width="416" height="636" frameX="-6" frameY="-6" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0003" x="415" y="0" width="416" height="636" frameX="-6" frameY="-6" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0004" x="831" y="0" width="405" height="642" frameX="-5" frameY="0" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0005" x="831" y="0" width="405" height="642" frameX="-5" frameY="0" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0006" x="0" y="642" width="396" height="642" frameX="-6" frameY="0" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0007" x="0" y="642" width="396" height="642" frameX="-6" frameY="0" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0008" x="396" y="642" width="397" height="642" frameX="-5" frameY="0" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0009" x="396" y="642" width="397" height="642" frameX="-5" frameY="0" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0010" x="793" y="642" width="397" height="642" frameX="-5" frameY="0" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0011" x="793" y="642" width="397" height="642" frameX="-5" frameY="0" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0012" x="793" y="642" width="397" height="642" frameX="-5" frameY="0" frameWidth="382" frameHeight="603" />
+<SubTexture name="Menu_Longus idle0013" x="793" y="642" width="397" height="642" frameX="-5" frameY="0" frameWidth="382" frameHeight="603" />
+</TextureAtlas>

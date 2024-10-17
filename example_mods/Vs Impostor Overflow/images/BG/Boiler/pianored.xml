@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="pianored.png">
+<SubTexture name="pianored idle0000" x="0" y="0" width="703" height="163" frameX="0" frameY="-377" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0001" x="0" y="0" width="703" height="163" frameX="0" frameY="-377" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0002" x="0" y="163" width="644" height="191" frameX="-10" frameY="-353" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0003" x="0" y="163" width="644" height="191" frameX="-10" frameY="-353" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0004" x="0" y="354" width="632" height="303" frameX="-16" frameY="-263" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0005" x="0" y="354" width="632" height="303" frameX="-16" frameY="-263" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0006" x="0" y="657" width="632" height="594" frameX="-9" frameY="0" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0007" x="0" y="657" width="632" height="594" frameX="-9" frameY="0" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0008" x="0" y="1251" width="632" height="454" frameX="-9" frameY="-140" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0009" x="0" y="1251" width="632" height="454" frameX="-9" frameY="-140" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0010" x="0" y="0" width="703" height="163" frameX="0" frameY="-377" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0011" x="0" y="0" width="703" height="163" frameX="0" frameY="-377" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0012" x="0" y="163" width="644" height="191" frameX="-10" frameY="-353" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0013" x="0" y="163" width="644" height="191" frameX="-10" frameY="-353" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0014" x="0" y="354" width="632" height="303" frameX="-16" frameY="-263" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0015" x="0" y="354" width="632" height="303" frameX="-16" frameY="-263" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0016" x="0" y="657" width="632" height="594" frameX="-9" frameY="0" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0017" x="0" y="657" width="632" height="594" frameX="-9" frameY="0" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0018" x="0" y="1251" width="632" height="454" frameX="-9" frameY="-140" frameWidth="666" frameHeight="559" />
+<SubTexture name="pianored idle0019" x="0" y="1251" width="632" height="454" frameX="-9" frameY="-140" frameWidth="666" frameHeight="559" />
+</TextureAtlas>

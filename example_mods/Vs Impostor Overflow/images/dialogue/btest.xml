@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="btest.png">
+<SubTexture name="btest brb0000" x="0" y="0" width="379" height="615" frameX="0" frameY="-3" frameWidth="339" frameHeight="578" />
+<SubTexture name="btest happy0000" x="379" y="0" width="400" height="694" frameX="0" frameY="0" frameWidth="360" frameHeight="654" />
+<SubTexture name="btest horror0000" x="779" y="0" width="380" height="713" frameX="0" frameY="0" frameWidth="340" frameHeight="673" />
+<SubTexture name="btest neutral0000" x="0" y="713" width="410" height="698" frameX="0" frameY="0" frameWidth="370" frameHeight="658" />
+<SubTexture name="btest pissed0000" x="410" y="713" width="429" height="618" frameX="0" frameY="0" frameWidth="389" frameHeight="578" />
+<SubTexture name="btest lq0000" x="839" y="713" width="591" height="681" frameX="0" frameY="0" frameWidth="551" frameHeight="641" />
+<SubTexture name="btest sad0000" x="0" y="1411" width="363" height="719" frameX="0" frameY="0" frameWidth="323" frameHeight="679" />
+<SubTexture name="btest what0000" x="363" y="1411" width="429" height="618" frameX="0" frameY="0" frameWidth="389" frameHeight="578" />
+</TextureAtlas>

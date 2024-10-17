@@ -1,0 +1,102 @@
+{
+	"dialogue_pos": "left",
+	"position": [
+		120,
+		-50
+	],
+	"scale": 0.899999999999999,
+	"animations": [
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "pissed",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "btest pissed",
+			"idle_name": "btest pissed0000"
+		},
+		{
+			"idle_offsets": [
+				-10,
+				75
+			],
+			"anim": "sad",
+			"loop_offsets": [
+				-10,
+				75
+			],
+			"idle_name": "btest sad0000",
+			"loop_name": "btest sad"
+		},
+		{
+			"idle_offsets": [
+				0,
+				53
+			],
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				53
+			],
+			"idle_name": "btest happy0000",
+			"loop_name": "btest happy"
+		},
+		{
+			"idle_offsets": [
+				0,
+				0
+			],
+			"anim": "brb",
+			"loop_offsets": [
+				0,
+				0
+			],
+			"idle_name": "btest brb0000",
+			"loop_name": "btest brb"
+		},
+		{
+			"loop_offsets": [
+				0,
+				55
+			],
+			"anim": "horror",
+			"idle_offsets": [
+				0,
+				55
+			],
+			"loop_name": "btest horror",
+			"idle_name": "btest horror0000"
+		},
+		{
+			"loop_offsets": [
+				30,
+				40
+			],
+			"anim": "lq",
+			"idle_offsets": [
+				30,
+				40
+			],
+			"loop_name": "btest lq",
+			"idle_name": "btest lq0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "what",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "btest what",
+			"idle_name": "btest what0000"
+		}
+	],
+	"image": "btest"
+}

@@ -1,0 +1,35 @@
+{
+	"storyName": "Tomatungus",
+	"difficulties": "Hard,",
+	"hideFreeplay": false,
+	"weekBackground": "records",
+	"weekBefore": "Week 1",
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"tomatungus",
+		"bfo",
+		"gfo"
+	],
+	"songs": [
+		[
+			"Tomate Rude",
+			"tomato-freeplay",
+			[
+				215,
+				40,
+				71
+			]
+		],
+		[
+			"Salsa",
+			"tomato-freeplay",
+			[
+				215,
+				40,
+				71
+			]
+		]
+	],
+	"weekName": "Week 2"
+}

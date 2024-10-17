@@ -1,0 +1,76 @@
+{
+	"position": [
+		210,
+		180
+	],
+	"dialogue_pos": "left",
+	"scale": 1.7,
+	"image": "red",
+	"animations": [
+		{
+			"loop_name": "RI happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "RI happy0000",
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "RI mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "RI mad0000",
+			"anim": "mad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "RI nervous",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "RI nervous0000",
+			"anim": "nervous",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "RI neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "RI neutral0000",
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "RI sad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "RI sad0000",
+			"anim": "sad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,80 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				80,
+				-270
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "longus idle"
+		},
+		{
+			"offsets": [
+				48,
+				-235
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "longus right"
+		},
+		{
+			"offsets": [
+				135,
+				-330
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "longus down"
+		},
+		{
+			"offsets": [
+				184,
+				-301
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "longus left"
+		},
+		{
+			"offsets": [
+				100,
+				-1
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "longus up"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/longus",
+	"position": [
+		50,
+		-110
+	],
+	"healthicon": "longus",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		79,
+		97
+	],
+	"camera_position": [
+		-80,
+		280
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,6 @@
+Set the health of the player
+
+Value 1: Health you want to set
+(2= full, 1=middle, 0=dead)
+
+If blank, sets health to 1

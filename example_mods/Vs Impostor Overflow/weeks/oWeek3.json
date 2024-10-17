@@ -1,0 +1,26 @@
+{
+	"storyName": "cyan",
+	"difficulties": "Hard,",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "Week 1",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bfo",
+		"gfo"
+	],
+	"songs": [
+		[
+			"Translucent",
+			"freeplay-cyan",
+			[
+				135,
+				140,
+				255
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 5"
+}

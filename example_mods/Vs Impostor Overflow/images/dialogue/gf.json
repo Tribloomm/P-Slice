@@ -1,0 +1,89 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		20,
+		100
+	],
+	"scale": 1.5,
+	"animations": [
+		{
+			"loop_name": "GF glint",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GF glint0000",
+			"anim": "glint",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GF happy",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GF happy0000",
+			"anim": "happy",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GF mad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GF mad0000",
+			"anim": "mad",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GF neutral",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GF neutral0000",
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GF suspect",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GF suspect0000",
+			"anim": "suspect",
+			"loop_offsets": [
+				0,
+				0
+			]
+		},
+		{
+			"loop_name": "GF q",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "GF q0000",
+			"anim": "q",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "gf"
+}

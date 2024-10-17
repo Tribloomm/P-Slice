@@ -1,0 +1,102 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				15,
+				-203
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Tomatungus idle"
+		},
+		{
+			"offsets": [
+				40,
+				-205
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Tomatungus right"
+		},
+		{
+			"offsets": [
+				40,
+				-291
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Tomatungus down"
+		},
+		{
+			"offsets": [
+				63,
+				-235
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Tomatungus left"
+		},
+		{
+			"offsets": [
+				29,
+				-76
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Tomatungus up"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				-240
+			],
+			"anim": "visortaunt",
+			"fps": 24,
+			"name": "Tomatungus visortaunt",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				-240
+			],
+			"anim": "fastvisortaunt",
+			"fps": 24,
+			"name": "Tomatungus fastvisortaunt",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/tomatungus",
+	"position": [
+		0,
+		100
+	],
+	"healthicon": "tomato",
+	"flip_x": false,
+	"healthbar_colors": [
+		187,
+		45,
+		48
+	],
+	"camera_position": [
+		-30,
+		230
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,10 @@
+{
+	"confirm_anim": "Menu_Berry idle",
+	"idle_anim": "Menu_Berry idle",
+	"position": [
+		150,
+		52
+	],
+	"scale": 0.55,
+	"image": "Menu_Berry"
+}

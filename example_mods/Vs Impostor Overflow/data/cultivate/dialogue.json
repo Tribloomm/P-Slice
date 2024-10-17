@@ -1,0 +1,100 @@
+{
+	"dialogue": [
+		{
+			"expression": "happy",
+			"text": "hello there!",
+			"boxState": "normal",
+			"portrait": "btest",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "happy",
+			"text": "whats poppin homeskillet",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "horror",
+			"text": "\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n .....................................................................................................................................................................................................................................",
+			"boxState": "normal",
+			"portrait": "btest",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "neutral",
+			"text": "wanna rap battle against me?",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "what",
+			"text": "do i get any money outta it?",
+			"boxState": "normal",
+			"portrait": "btest",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "q",
+			"text": "no lmfao",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "pissed",
+			"text": "oh, then i dont want to",
+			"boxState": "normal",
+			"portrait": "btest",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "happy",
+			"text": "but what if i offer something better than money?",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "what",
+			"text": "really? what is it?",
+			"boxState": "normal",
+			"portrait": "btest",
+			"speed": 0.05,
+			"sound": "redd"
+		},
+		{
+			"expression": "uwu",
+			"text": "Friendship!",
+			"boxState": "normal",
+			"portrait": "boyfriend",
+			"speed": 0.05,
+			"sound": "bfd"
+		},
+		{
+			"expression": "lq",
+			"text": "...",
+			"boxState": "normal",
+			"portrait": "btest",
+			"speed": 0.2,
+			"sound": "redd"
+		},
+		{
+			"expression": "happy",
+			"text": "uhh ok i guess!",
+			"boxState": "angry",
+			"portrait": "btest",
+			"speed": 0.05,
+			"sound": "redd"
+		}
+	]
+}

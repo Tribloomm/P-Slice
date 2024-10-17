@@ -1,0 +1,52 @@
+{
+	"dialogue": [
+		{
+			"expression": "happy",
+			"text": "Wow you beat me!",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "btest"
+		},
+		{
+			"expression": "happy",
+			"text": "coolswag",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "what",
+			"text": "grr now I ACTUALLY gotta try to win >:(",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "btest"
+		},
+		{
+			"expression": "happy",
+			"text": "coolswag",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "lq",
+			"text": "Ill win this one for sure",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "btest"
+		},
+		{
+			"expression": "happy",
+			"text": "coolswag",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		}
+	]
+}

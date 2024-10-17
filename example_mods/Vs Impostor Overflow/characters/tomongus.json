@@ -1,0 +1,91 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-64,
+				-104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "idle"
+		},
+		{
+			"offsets": [
+				-64,
+				-104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "left"
+		},
+		{
+			"offsets": [
+				-64,
+				-104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "down"
+		},
+		{
+			"offsets": [
+				-64,
+				-104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "right"
+		},
+		{
+			"offsets": [
+				-64,
+				-104
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "huh",
+			"indices": [],
+			"name": "huh"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": true,
+	"image": "characters/tomongus",
+	"position": [
+		113,
+		496
+	],
+	"healthicon": "tomato",
+	"flip_x": false,
+	"healthbar_colors": [
+		200,
+		45,
+		48
+	],
+	"camera_position": [
+		-110,
+		-80
+	],
+	"sing_duration": 4,
+	"scale": 6,
+	"_editor_isPlayer": false
+}

@@ -1,0 +1,115 @@
+{
+	"dialogue_pos": "right",
+	"position": [
+		60,
+		130
+	],
+	"scale": 1.7,
+	"animations": [
+		{
+			"anim": "neutral",
+			"loop_offsets": [
+				0,
+				-12
+			],
+			"idle_offsets": [
+				-1,
+				-12
+			],
+			"loop_name": "BF neutral",
+			"idle_name": "BF neutral0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-10
+			],
+			"anim": "happy",
+			"idle_offsets": [
+				0,
+				-8
+			],
+			"loop_name": "BF happy",
+			"idle_name": "BF happy0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-15
+			],
+			"anim": "angry",
+			"idle_offsets": [
+				0,
+				-15
+			],
+			"loop_name": "BF angry",
+			"idle_name": "BF angry0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				-40
+			],
+			"anim": "realization",
+			"idle_offsets": [
+				1,
+				-40
+			],
+			"loop_name": "BF realization",
+			"idle_name": "BF realization0000"
+		},
+		{
+			"idle_offsets": [
+				-4,
+				-9
+			],
+			"anim": "mad",
+			"loop_offsets": [
+				-3,
+				-9
+			],
+			"idle_name": "BF mad0005",
+			"loop_name": "BF mad"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "sad",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "BF sad",
+			"idle_name": "BF sad0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "uwu",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "BF uwu",
+			"idle_name": "BF uwu0000"
+		},
+		{
+			"loop_offsets": [
+				0,
+				0
+			],
+			"anim": "q",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"loop_name": "BF q",
+			"idle_name": "BF q0000"
+		}
+	],
+	"image": "boyfriend"
+}

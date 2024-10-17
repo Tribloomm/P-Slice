@@ -1,0 +1,17 @@
+Impostaurora Team
+Tribloom::Tribloom::Director, Artist, Musician, Charter.::https://www.youtube.com/channel/UCWxhfjrQDvJLXnMHxiZHAHg::FF9233
+Frostor::Frostor::Artist.:: ::833148
+Mixers::Mixers::Musician.::https://www.youtube.com/channel/UCfVYpamhA7nEldA-HDIx3dA::AC30D4 
+Sussus_youbadao/TeihenMint::Teihen::Musician, Charter.::https://twitter.com/sussus_youbadao::4EEEEE 
+Topazowy Golem::Topazowy::Musician, Artist.::https://www.youtube.com/@topazowygolem/featured::FF5617 
+WEEKEND INTERFACE
+The Funkin' Crew Inc::funkin::Assets are property of The Funkin' Crew Inc::https://github.com/FunkinCrew::31b0d1
+emi3::emily::+ Main Programmer\n+ Additional Art::https://www.youtube.com/@emilyy03::705f7a
+_chillax._::unknown::+ Contributor::https://x.com/Chillaxorelaxo::8e35b5
+Scripts etc.
+AxorTheAxolotl::Axor::Softcoded V4 UI.::https://www.youtube.com/channel/UCL93baZKvsCthb8KL7_Aiug::51C272 
+Kornelbut::Kornel::Note Detecting Strumlines.::https://www.youtube.com/channel/UCUP6PH54o1IzraWfHDW4snQ::A1743C
+Kfaz87::Kfaz::Winning Icons.::https://www.youtube.com/channel/UCnugrE5OWZ9mvbE9ai3PrZg::56EBE0
+Kaite::Kaite::Double Trail Note.::https://gamebanana.com/members/2636194::3345CA
+CJRed::CJ::Double Trail Note, Im not 100% sure the linked profile is them or not, Im guessing it is because of the number 45 thing.::https://gamebanana.com/members/2340148::2B2F4D
+RamenDominoes::Ramen::Cinematics Events.::https://gamebanana.com/members/2135195::9B363E 

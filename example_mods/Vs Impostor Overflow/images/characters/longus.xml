@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="longus.png">
+<SubTexture name="longus up0000" x="0" y="0" width="450" height="912" frameX="-14" frameY="0" frameWidth="424" frameHeight="873" />
+<SubTexture name="longus up0001" x="0" y="0" width="450" height="912" frameX="-14" frameY="0" frameWidth="424" frameHeight="873" />
+<SubTexture name="longus up0002" x="450" y="0" width="442" height="864" frameX="-17" frameY="-47" frameWidth="424" frameHeight="873" />
+<SubTexture name="longus up0003" x="450" y="0" width="442" height="864" frameX="-17" frameY="-47" frameWidth="424" frameHeight="873" />
+<SubTexture name="longus up0004" x="892" y="0" width="463" height="794" frameX="-1" frameY="-117" frameWidth="424" frameHeight="873" />
+<SubTexture name="longus up0005" x="892" y="0" width="463" height="794" frameX="-1" frameY="-117" frameWidth="424" frameHeight="873" />
+<SubTexture name="longus right0000" x="1355" y="0" width="695" height="671" frameX="-27" frameY="-5" frameWidth="682" frameHeight="637" />
+<SubTexture name="longus right0001" x="1355" y="0" width="695" height="671" frameX="-27" frameY="-5" frameWidth="682" frameHeight="637" />
+<SubTexture name="longus right0002" x="0" y="912" width="678" height="672" frameX="-14" frameY="-5" frameWidth="682" frameHeight="637" />
+<SubTexture name="longus right0003" x="0" y="912" width="678" height="672" frameX="-14" frameY="-5" frameWidth="682" frameHeight="637" />
+<SubTexture name="longus right0004" x="678" y="912" width="616" height="676" frameX="0" frameY="-1" frameWidth="682" frameHeight="637" />
+<SubTexture name="longus right0005" x="678" y="912" width="616" height="676" frameX="0" frameY="-1" frameWidth="682" frameHeight="637" />
+<SubTexture name="longus left0000" x="1294" y="912" width="465" height="587" frameX="0" frameY="-25" frameWidth="425" frameHeight="573" />
+<SubTexture name="longus left0001" x="1294" y="912" width="465" height="587" frameX="0" frameY="-25" frameWidth="425" frameHeight="573" />
+<SubTexture name="longus left0002" x="1759" y="912" width="449" height="600" frameX="-16" frameY="-13" frameWidth="425" frameHeight="573" />
+<SubTexture name="longus left0003" x="1759" y="912" width="449" height="600" frameX="-16" frameY="-13" frameWidth="425" frameHeight="573" />
+<SubTexture name="longus left0004" x="0" y="1588" width="424" height="611" frameX="-41" frameY="0" frameWidth="425" frameHeight="573" />
+<SubTexture name="longus left0005" x="0" y="1588" width="424" height="611" frameX="-41" frameY="0" frameWidth="425" frameHeight="573" />
+<SubTexture name="longus idle0000" x="424" y="1588" width="420" height="614" frameX="-2" frameY="-28" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0001" x="424" y="1588" width="420" height="614" frameX="-2" frameY="-28" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0002" x="844" y="1588" width="421" height="637" frameX="-1" frameY="-6" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0003" x="844" y="1588" width="421" height="637" frameX="-1" frameY="-6" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0004" x="1265" y="1588" width="417" height="643" frameX="0" frameY="0" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0005" x="1265" y="1588" width="417" height="643" frameX="0" frameY="0" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0006" x="0" y="2231" width="407" height="643" frameX="-1" frameY="0" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0007" x="0" y="2231" width="407" height="643" frameX="-1" frameY="0" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0008" x="407" y="2231" width="408" height="643" frameX="0" frameY="0" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0009" x="407" y="2231" width="408" height="643" frameX="0" frameY="0" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0010" x="815" y="2231" width="408" height="643" frameX="0" frameY="0" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0011" x="815" y="2231" width="408" height="643" frameX="0" frameY="0" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0012" x="815" y="2231" width="408" height="643" frameX="0" frameY="0" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus idle0013" x="815" y="2231" width="408" height="643" frameX="0" frameY="0" frameWidth="382" frameHeight="604" />
+<SubTexture name="longus down0000" x="1223" y="2231" width="581" height="531" frameX="0" frameY="-52" frameWidth="543" frameHeight="544" />
+<SubTexture name="longus down0001" x="1223" y="2231" width="581" height="531" frameX="0" frameY="-52" frameWidth="543" frameHeight="544" />
+<SubTexture name="longus down0002" x="0" y="2874" width="558" height="582" frameX="-15" frameY="-1" frameWidth="543" frameHeight="544" />
+<SubTexture name="longus down0003" x="0" y="2874" width="558" height="582" frameX="-15" frameY="-1" frameWidth="543" frameHeight="544" />
+<SubTexture name="longus down0004" x="558" y="2874" width="538" height="582" frameX="-27" frameY="-1" frameWidth="543" frameHeight="544" />
+<SubTexture name="longus down0005" x="558" y="2874" width="538" height="582" frameX="-27" frameY="-1" frameWidth="543" frameHeight="544" />
+</TextureAtlas>

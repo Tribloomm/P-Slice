@@ -1,0 +1,7 @@
+{
+	"name": "Vs Imp Overflow [DEMO]",
+	"description": "A V4 Spinoff Mod thatll aim to add all the background and cutscene characters (also including some select scrapped ones) and try to add more depth and personality to them. It'll also try to expand the story of V4 a little more.",
+	"restart":true,
+	"runsGlobally": true,
+	"color": [170, 0, 255]
+}
