@@ -21,7 +21,6 @@ function onEvent(eventName, value1, value2)
                 triggerEvent('Camera Follow Pos' , '', '')
             end
         end
-        end
 
 
 end
