@@ -1,79 +1,62 @@
 {
 	"animations": [
 		{
+			"offsets": [24, -152],
 			"loop": false,
-			"offsets": [
-				24,
-				-152
-			],
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "impostorb idle",
-			"indices": []
+			"indices": [],
+			"name": "impostorb idle"
 		},
 		{
+			"offsets": [-43, -102],
 			"loop": false,
-			"offsets": [
-				-43,
-				-102
-			],
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "impostor right",
-			"indices": []
+			"indices": [],
+			"name": "impostor right"
 		},
 		{
+			"offsets": [-2, -206],
 			"loop": false,
-			"offsets": [
-				-2,
-				-206
-			],
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "impostor stayfresh",
-			"indices": []
+			"indices": [],
+			"name": "impostor stayfresh"
 		},
 		{
+			"offsets": [47, -74],
 			"loop": false,
-			"offsets": [
-				33,
-				-74
-			],
+			"fps": 24,
+			"anim": "missLEFT",
+			"indices": [],
+			"name": "impostorb miss"
+		},
+		{
+			"offsets": [33, -74],
+			"loop": false,
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "impostor left",
-			"indices": []
+			"indices": [],
+			"name": "impostor left"
 		},
 		{
+			"offsets": [17, -85],
 			"loop": false,
-			"offsets": [
-				17,
-				-85
-			],
-			"anim": "singUP",
 			"fps": 24,
-			"name": "impostor up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "impostor up"
 		}
 	],
 	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/impostorb",
-	"position": [
-		0,
-		80
-	],
+	"position": [0, 80],
 	"healthicon": "berry",
 	"flip_x": false,
-	"healthbar_colors": [
-		62,
-		118,
-		225
-	],
-	"camera_position": [
-		-20,
-		220
-	],
+	"healthbar_colors": [62, 118, 225],
+	"camera_position": [-20, 220],
 	"sing_duration": 6.1,
 	"scale": 1,
 	"_editor_isPlayer": false

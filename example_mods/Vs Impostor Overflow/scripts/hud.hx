@@ -33,27 +33,6 @@ function onCreate() {
 	doMiss = getSetting('missbutlikeactually', false);
 	missRating = getSetting('miss', false);
 	var showRam:Bool = getSetting('showram', false);
-	
-	var appTitle:String = FlxG.stage.window.title;
-	if (StringTools.trim(appTitle) != '' && appTitle != 'Friday Night Funkin\'') oldTitle = appTitle;
-	FlxG.stage.window.title = 'Friday Night Funkin\'';
-	
-	FlxTransitionableState.skipNextTransOut = true;
-	psychFps = Main.fpsVar.updateText; //custom fps display
-	Main.fpsVar.defaultTextFormat = new TextFormat('_sans', 12, 0xffffff, false, false, false, '', '', 'left', 0, 0, 0, -4); //lol!
-	Main.fpsVar.updateText = () -> {
-        memPeak = Math.max(memPeak, Main.fpsVar.memoryMegas);
-        Main.fpsVar.text = 'FPS: ' + Main.fpsVar.currentFPS + (showRam ? ('\nRAM: ' + FlxStringUtil.formatBytes(Main.fpsVar.memoryMegas).toLowerCase() + ' / ' + FlxStringUtil.formatBytes(memPeak).toLowerCase()) : '');
-		
-		
-			}
-		}
-
-function onDestroy() {
-	FlxG.stage.window.title = oldTitle;
-	Main.fpsVar.defaultTextFormat = new TextFormat('_sans', 14, 0xffffff, false, false, false, '', '', 'left', 0, 0, 0, 0);
-	Main.fpsVar.updateText = psychFps;
-	return Function_Continue;
 }
 
 function onUpdatePost() {
@@ -62,6 +41,10 @@ function onUpdatePost() {
 	game.healthBar.y = FlxG.height * (ClientPrefs.data.downScroll ? .1 : .9);
 	
 	game.healthBar.y = FlxG.height * (ClientPrefs.data.downScroll ? .1 : .9);
+
+	var relayer:Array = [game.scoreTxt, game.healthBar, game.iconP1, game.iconP2];
+	for (item in relayer) game.uiGroup.remove(item);
+	for (item in relayer) game.uiGroup.add(item); //:p
 	
 	return Function_Continue;
 }
@@ -94,18 +77,4 @@ function boom() {
 		FlxG.camera.zoom = game.defaultCamZoom * (1 + .015 * game.camZoomingMult);
 		game.camHUD.zoom = .03 + 1;
 	}
-}
-function coolLerp(base, target, ratio) { //funkin mathutil
-	return base + (ratio * FlxG.elapsed / (1 / 60)) * (target - base);
-}
-function onUpdatePost(e) {
-	
-	lerpHealth = FlxMath.lerp(lerpHealth, game.health, .15); //WHY IS EVERYTHING TIED TO FPS
-	game.healthBar.percent = lerpHealth * 50;
-	
-	game.updateIconsPosition();
-	
-	//uhh!
-	return;
-
 }

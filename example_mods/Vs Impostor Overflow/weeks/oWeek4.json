@@ -1,19 +1,23 @@
 {
 	"storyName": "Right Hand Man",
-	"difficulties": "Hard,",
+	"difficulties": "Hard",
 	"hideFreeplay": false,
 	"weekBackground": "",
 	"weekBefore": "Week 1",
 	"startUnlocked": true,
-	"weekCharacters": [
-		"dad",
-		"bfo",
-		"gfo"
-	],
 	"songs": [
 		[
 			"Knife Play",
-			"rhm-freeplay",
+			"rhm",
+			[
+				126,
+				73,
+				253
+			]
+		],
+		[
+			"Mechanized",
+			"rhm",
 			[
 				126,
 				73,
@@ -22,5 +26,10 @@
 		]
 	],
 	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"bfo",
+		"gfo"
+	],
 	"weekName": "Week 3"
 }

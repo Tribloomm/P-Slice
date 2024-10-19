@@ -1,13 +1,19 @@
 {
 	"storyName": "Bucken Berry",
 	"difficulties": "Hard",
+	"weekBackground": "boiler",
 	"hideFreeplay": false,
 	"weekBefore": "Tutorial",
 	"startUnlocked": true,
+	"weekCharacters": [
+		"berry",
+		"bfo",
+		"gfo"
+	],
 	"songs": [
 		[
 			"Cultivate",
-			"berry-freeplay",
+			"berry",
 			[
 				142,
 				98,
@@ -16,7 +22,7 @@
 		],
 		[
 			"Fertilized",
-			"berry-freeplay",
+			"berry",
 			[
 				142,
 				98,
@@ -25,7 +31,7 @@
 		],
 		[
 			"Beryl",
-			"berry-freeplay",
+			"berry",
 			[
 				142,
 				98,
@@ -33,13 +39,7 @@
 			]
 		]
 	],
-	"weekBackground": "boiler",
 	"hideStoryMode": false,
-	"weekCharacters": [
-		"berry",
-		"bfo",
-		"gfo"
-	],
-	"weekName": "Bucken Berry",
-	"hiddenUntilUnlocked": false
+	"hiddenUntilUnlocked": false,
+	"weekName": "Bucken Berry"
 }
