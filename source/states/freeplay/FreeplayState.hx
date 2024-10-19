@@ -138,7 +138,7 @@ class FreeplayState extends MusicBeatSubstate
 	var diffIdsTotal:Array<String> = ['easy', "normal", "hard"];
 
 	var curSelected:Int = 0;
-	var currentDifficulty:String = "normal";
+	var currentDifficulty:String = "hard";
 
 	
 	var colorTween:FreeplayColorTweener;
@@ -178,7 +178,7 @@ class FreeplayState extends MusicBeatSubstate
 
 	var stickerSubState:StickerSubState;
 
-	public static var rememberedDifficulty:Null<String> = "normal";
+	public static var rememberedDifficulty:Null<String> = "hard";
 	public static var rememberedSongId:Null<String> = 'tutorial';
 
 	var funnyCam:PsychCamera;
