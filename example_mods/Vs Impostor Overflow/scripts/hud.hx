@@ -41,10 +41,6 @@ function onUpdatePost() {
 	game.healthBar.y = FlxG.height * (ClientPrefs.data.downScroll ? .1 : .9);
 	
 	game.healthBar.y = FlxG.height * (ClientPrefs.data.downScroll ? .1 : .9);
-
-	var relayer:Array = [game.scoreTxt, game.healthBar, game.iconP1, game.iconP2];
-	for (item in relayer) game.uiGroup.remove(item);
-	for (item in relayer) game.uiGroup.add(item); //:p
 	
 	return Function_Continue;
 }
