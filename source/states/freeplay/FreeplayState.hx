@@ -367,7 +367,7 @@ class FreeplayState extends MusicBeatSubstate
 
 		FlxG.debugger.addTrackerProfile(new TrackerProfile(BGScrollingText, ['x', 'y', 'speed', 'size']));
 
-		moreWays = new BGScrollingText(0, 160, 'HOT BLOODED IN MORE WAYS THAN ONE', FlxG.width, true, 43);
+		moreWays = new BGScrollingText(0, 160, 'VOTE EM OUT', FlxG.width, true, 43);
 		moreWays.funnyColor = 0xFFFFF383;
 		moreWays.speed = 6.8;
 		grpTxtScrolls.add(moreWays);
@@ -407,7 +407,7 @@ class FreeplayState extends MusicBeatSubstate
 			speed: 0.5,
 		});
 
-		moreWays2 = new BGScrollingText(0, 397, 'HOT BLOODED IN MORE WAYS THAN ONE', FlxG.width, true, 43);
+		moreWays2 = new BGScrollingText(0, 397, 'VOTE EM OUT', FlxG.width, true, 43);
 		moreWays2.funnyColor = 0xFFFFF383;
 		moreWays2.speed = 6.8;
 		grpTxtScrolls.add(moreWays2);
