@@ -149,7 +149,7 @@ class ResultState extends MusicBeatSubstate
     // Reset the camera zoom on the results screen.
     FlxG.camera.zoom = 1.0;
 
-    var bg:FlxSprite = FlxGradient.createGradientFlxSprite(FlxG.width, FlxG.height, [0xFFFECC5C, 0xFFFDC05C], 90);
+    var bg:FlxSprite = FlxGradient.createGradientFlxSprite(FlxG.width, FlxG.height, [0xff6495ed, 0xff6495ed], 90);
     bg.scrollFactor.set();
     //bg.zIndex = 10;
     bg.cameras = [cameraBG];
