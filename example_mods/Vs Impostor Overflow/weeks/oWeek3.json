@@ -7,6 +7,15 @@
 	"startUnlocked": true,
 	"songs": [
 		[
+			"Eidorical",
+			"cyan",
+			[
+				135,
+				140,
+				255
+			]
+		],
+		[
 			"Translucent",
 			"cyan",
 			[
