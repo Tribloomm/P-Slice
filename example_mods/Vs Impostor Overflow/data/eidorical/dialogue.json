@@ -1,0 +1,36 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "hi",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "hi",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "Im a ghost",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "gf"
+		},
+		{
+			"expression": "talk",
+			"text": "omg me too",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "bf"
+		}
+	]
+}
