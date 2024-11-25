@@ -2,9 +2,14 @@
 	"storyName": "Right Hand Man",
 	"difficulties": "Hard",
 	"hideFreeplay": false,
-	"weekBackground": "",
+	"weekBackground": "armory",
 	"weekBefore": "Week 1",
 	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bfo",
+		"gfo"
+	],
 	"songs": [
 		[
 			"Knife Play",
@@ -26,10 +31,5 @@
 		]
 	],
 	"hideStoryMode": false,
-	"weekCharacters": [
-		"",
-		"bfo",
-		"gfo"
-	],
 	"weekName": "Week 3"
 }

@@ -1,0 +1,140 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Hah, headshot.",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "red"
+		},
+		{
+			"expression": "realization",
+			"text": "...",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.2,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "neutral",
+			"text": "Something wrong?",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "red"
+		},
+		{
+			"expression": "q",
+			"text": "you just fucking killed my girlfriend",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "neutral",
+			"text": "So?",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "red"
+		},
+		{
+			"expression": "neutral",
+			"text": "That's how this game works you stupid bastard",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "red"
+		},
+		{
+			"expression": "sad",
+			"text": "but I loved her, my little pookie bear, my sunlight, my desire to live, my-",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "talk",
+			"text": "Stfu noone cares.",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "red"
+		},
+		{
+			"expression": "neutral",
+			"text": "We need to win this game somehow, remember?",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "red"
+		},
+		{
+			"expression": "mad",
+			"text": "So get your ass up and start doing your job, or else we'll get ejected!",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "red"
+		},
+		{
+			"expression": "mad",
+			"text": "you fucking piece of shit",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "realization",
+			"text": "you will learn the actions of your...",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "angry",
+			"text": "CONSEQUENCES",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.3,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "neutral",
+			"text": "Wtf, I didnt know we're in a 2018 Gacha Life video animatic.",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "red"
+		},
+		{
+			"expression": "angry",
+			"text": "",
+			"boxState": "normal",
+			"sound": "silenced",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		},
+		{
+			"expression": "sad",
+			"text": "Okay okay, mister \"a frequent or regular male companion in a romantic or sexual relationship\"",
+			"boxState": "normal",
+			"sound": "redd",
+			"speed": 0.05,
+			"portrait": "red"
+		},
+		{
+			"expression": "talk",
+			"text": "What",
+			"boxState": "normal",
+			"sound": "bfd",
+			"speed": 0.05,
+			"portrait": "boyfriend"
+		}
+	]
+}
