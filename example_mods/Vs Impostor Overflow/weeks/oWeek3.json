@@ -2,7 +2,7 @@
 	"storyName": "cyan",
 	"difficulties": "Hard",
 	"hideFreeplay": false,
-	"weekBackground": "",
+	"weekBackground": "electrical",
 	"weekBefore": "Week 1",
 	"startUnlocked": true,
 	"songs": [
