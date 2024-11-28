@@ -15,7 +15,7 @@ local mouseVisible = false
 function onCreate()
     if not seenCutscene then
         diaSong = string.lower(songName)
-        diaSong2 = string.gsub(diaSong, '-', '')
+        diaSong2 = string.gsub(diaSong, '-', ' ')
         if videoStart[diaSong] then
             hasVideo = videoStart[diaSong]
         elseif videoStart[diaSong2] then
