@@ -1,43 +1,23 @@
+import flixel.util.FlxColor;
 import objects.PixelSplashShader;
 import flixel.group.FlxTypedSpriteGroup;
-//using StringTools;
-
-var skinSettings:Map = [ //if you need to modify the scale for other skins add it here
-	'NOTE_assets-future' => { //you may do this by noteskin asset name
-		scale: {x: 1.45, y: 1},
-		offset: {x: -10.5, y: 0},
-	},
-	'chip' => { //or noteskin postfix (all lowercase)
-		scale: {x: 1.37, y: 1},
-		offset: {x: -8, y: 0},
-	}
-];
 
 /*
 TODO
 - improve code
+- custom pause menu?
+- shader for hold note covers (DONE!)
+- 0.3.0 score system? (make a gameplay script and move the hold stuff there)
+- 0.3.0 ratings (which are also in camera)
 */
-var noteSparks:Bool = true;
 var coverGroup:FlxTypedSpriteGroup<FlxSprite>;
 var coverSplashGroup:FlxTypedSpriteGroup<FlxSprite>;
 var prevFrame:Int = 0;
 var rgbs:Array = []; //rgb shader references for hold covers
 var holdCovers:Array = [];
 var playHits:Array = [];
-var flicker:Array = [];
-var flickered:Bool = false;
-var flickers:Bool = false;
-var noteEffects:Bool = false;
-
-function getSetting(setting, def) {
-	var setting = game.callOnHScript('getScrSetting', [setting, def]);
-	return setting;
-}
-
-function onCountdownStarted() {
-	noteSparks = getSetting('holdscoring', true);
-	Paths.getSparrowAtlas('holdCoverShader');
-}
+var playPresses:Array = [];
+var holdsData:Array = [];
 
 function onCountdownStarted() {
 	coverGroup = new FlxTypedSpriteGroup();
@@ -45,120 +25,70 @@ function onCountdownStarted() {
 	game.add(coverGroup);
 	coverSplashGroup = new FlxTypedSpriteGroup();
 	coverSplashGroup.cameras = [game.camHUD];
-	game.add(coverSplashGroup);
-	
+	game.insert(game.members.indexOf(game.noteGroup) + 1, coverSplashGroup);
+
 	var pixel:Float = (PlayState.isPixelStage ? PlayState.daPixelZoom : 1);
 	var i = 0;
-	flickers = getSetting('worstsettinginthewholehistoryofpsych072+modding', false);
-	noteEffects = getSetting('pixeleffects', true) || !PlayState.isPixelStage;
-	for (note in game.unspawnNotes) if (!noteEffects) note.noteSplashData.disabled = true;
 	for (strum in game.strumLineNotes.members) {
 		strum.animation.rename('confirm', 'hit');
-		
+
 		var cover = new FlxSprite();
 		cover.frames = Paths.getSparrowAtlas('holdCoverShader');
 		cover.antialiasing = ClientPrefs.data.antialiasing;
 		cover.animation.addByPrefix('start', 'holdCoverStart', 24, false);
 		cover.animation.addByPrefix('loop', 'holdCover0', 24, true);
 		cover.animation.play('loop', true);
-		cover.offset.set(106, 99);
+		cover.offset.set(106, 100);
 		cover.visible = false;
-		
-		if (PlayState.isPixelStage) cover.offset.set(112, 102); //silly solution
-		
-		var superScale = {x: 1, y: 1};
-		var postfix:String = getSkinPostfix(strum.graphic.key);
-		if (!skinSettings.exists(postfix)) postfix = getFilename(strum.graphic.key);
-		var config = skinSettings[postfix];
-		if (config != null) {
-			if (config.scale != null) {
-				cover.scale.set(config.scale.x, config.scale.y);
-				superScale.x = config.scale.x;
-				superScale.y = config.scale.y;
-			}
-			if (config.offset != null) {
-				cover.offset.x -= config.offset.x;
-				cover.offset.y -= config.offset.y;
-			}
-		} else { //attempt to scale hold cover automatically
-			var path:String = 'noteSkins/' + getFilename(strum.graphic.key);
-			if (path != 'noteSkins/NOTE_assets') {
-				var ref = new FlxSprite(300, 300);
-				Paths.image(path);
-				ref.frames = Paths.getSparrowAtlas(path);
-				ref.animation.addByPrefix('hold', Note.colArray[strum.noteData] + ' hold piece');
-				ref.animation.play('hold');
-				if (PlayState.isPixelStage) ref.scale.x *= .7;
-				ref.updateHitbox();
-				superScale.x = Math.max(ref.width / 85, 1); //(50 is vanilla notes hold width!)
-				ref.destroy();
-				cover.scale.x = superScale.x;
-				cover.offset.x -= (1 - superScale.x) * 16;
-			}
-		}
-		
+
 		var rgb = new PixelSplashShader();
-		rgb.uBlocksize.value = [pixel / superScale.x, pixel / superScale.y];
-		rgb.mult.value = [1];
+		rgb.uBlocksize.value = [pixel, pixel];
 		cover.shader = rgb;
 		rgbs.push(rgb);
-		holdCovers.push({cover: cover, strum: strum, hitTime: -1});
+		holdCovers.push({cover: cover, strum: strum});
 		coverSplashGroup.add(cover);
-		
+
 		i ++;
 	}
+	return Function_Continue;
 }
 
-function getFilename(key) {
-	var s = StringTools.replace(key, '\\', '/');
-	var pos:Int = s.lastIndexOf('/');
-	var dot:Int = s.lastIndexOf('.');
-	if (s.lastIndexOf('/') >= 0) return s.substring(pos + 1, (dot < 0 ? s.length : dot));
-	else return '';
-}
-function getSkinPostfix(key) {
-	var s = StringTools.replace(key, '\\', '/');
-	var pos:Int = s.lastIndexOf('-');
-	var dot:Int = s.lastIndexOf('.');
-	if (pos > s.lastIndexOf('/')) return s.substring(pos + 1, (dot < 0 ? s.length : dot)).toLowerCase();
-	else return '';
+function inArray(array, pos) { //array access lags workaround???
+    var i = 0;
+	if (pos >= array.length) return null;
+    for (item in array) {
+        if (i == pos) { return item; }
+        i ++;
+    }
+    return null;
 }
 
 function onSpawnNote(note) {
 	if (note.isSustainNote) {
-		var strum = getStrum(note.mustPress, note.noteData);
 		note.multAlpha = 1;
-		if (PlayState.isPixelStage) note.scale.x = 6 * .7;
-		if (StringTools.endsWith(note.animation.name, 'end')) note.scale.y = note.scale.x;
-		note.updateHitbox();
-		note.offsetX = (strum.width - note.width) * .5;
+		note.extraData.set('anim', !note.noAnimation);
+		note.noAnimation = true;
 	}
-	return;
 }
 function onKeyRelease(k) {
-	var data = holdCovers[k + game.opponentStrums.length];
-	if (data == null) return;
+	var data = inArray(holdCovers, k + game.opponentStrums.length);
+	if (data == null) return Function_Continue;
 	var cover = data.cover;
-	if (cover != null && cover.animation.name != 'end') cover.visible = false;
-	return;
+	if (cover != null && cover.animation.curAnim.name != 'end') cover.visible = false;
+	return Function_Continue;
 }
 function popCover(note, strum, cover, rgb) {
-	if (note.noteSplashData.disabled) return;
 	var strum = cover.strum;
 	if (strum != null && !strum.visible) return;
-	
+
 	cover.visible = true;
 	if (rgb != null) {
-		if (note.rgbShader.enabled) {
-			rgb.r.value = note.shader.r.value;
-			rgb.g.value = note.shader.g.value; //blue color channel is not used
-		} else {
-			rgb.r.value = rgb.g.value = [1, 1, 1];
-		}
+		rgb.r.value = int2rgbfloat(note.rgbShader.r);
+		rgb.g.value = int2rgbfloat(note.rgbShader.g); //blue color channel is not used
 	}
+	cover.animation.play('start', true);
 }
 function spawnCoverSparks(cover) {
-	if (!noteSparks) return;
 	var coverSplash:FlxSprite = new FlxSprite(); //coverSplashGroup.recycle(FlxSprite); figure out why this doesnt work correctly later
 	coverSplash.frames = Paths.getSparrowAtlas('holdCoverShader');
 	coverSplash.setPosition(cover.x, cover.y);
@@ -172,84 +102,53 @@ function spawnCoverSparks(cover) {
 	coverSplashGroup.add(coverSplash);
 }
 function coverLogic(note, end) {
-	var data = note.noteData;
-	if (note.mustPress) data += game.opponentStrums.length;
-	
-	var coverData = holdCovers[data];
-	var rgb = rgbs[data];
-	
-	if (coverData == null) return;
-	var cover = coverData.cover;
-	
-	var strum = getStrum(note.mustPress, note.noteData);
-	if (strum == null) return;
-	
-	if (note.isSustainNote) {
-		if (end) {
-			if (!note.mustPress || game.cpuControlled) {
-				strum.playAnim('static');
+	if (note.noteSplashData.disabled) return;
+
+		var data = note.noteData;
+		if (note.mustPress) data += game.opponentStrums.length;
+
+		var coverData = inArray(holdCovers, data);
+		var rgb = inArray(rgbs, data);
+
+		if (coverData == null) return;
+		var strum = inArray(note.mustPress ? game.playerStrums.members : game.opponentStrums.members, note.noteData);
+		if (strum == null) return;
+
+		var cover = coverData.cover;
+		if (note.isSustainNote) {
+			if (!cover.visible || cover.animation.curAnim.name == 'end') popCover(note, strum, cover, rgb);
+			if ((end || Conductor.songPosition >= note.strumTime + Conductor.stepCrochet) && StringTools.endsWith(note.animation.curAnim.name, 'holdend')) {
+			if (!note.mustPress) {
 				cover.visible = false;
-				var par = note.parent;
-				if (par != null) for (child in par.tail) child.visible = false;
-				if (note.mustPress && !note.noteSplashData.disabled) spawnCoverSparks(cover);
-			} else {
-				var hitTime:Float = note.strumTime;
-				var delay:Float = (note.height / .45 / game.songSpeed / note.multSpeed / game.playbackRate); //pixels > ms
-				new FlxTimer().start(delay * .001, () -> {
-					if (strum != null && coverData.hitTime == hitTime && strum.animation.name == 'hit') {
-						if (note != null && !note.noteSplashData.disabled) spawnCoverSparks(cover);
-						cover.visible = false;
-						strum.playAnim('pressed');
-						strum.animation.finishCallback = null;
-					}
-				});
-				coverData.hitTime = hitTime;
+				strum.playAnim('static');
+		} else if (strum.animation.curAnim.name != 'static') strum.playAnim(game.cpuControlled ? 'static' : 'pressed');
+			strum.animation.finishCallback = null;
+			strum.resetAnim = 0;
+			if (cover.visible && note.mustPress) {
+				cover.visible = false;
+				spawnCoverSparks(cover);
 			}
-			return;
-		}
-		if (!cover.visible || cover.animation.name == 'end') popCover(note, strum, cover, rgb);
-	} else if (note.tail.length > 0) {
-		cover.animation.play('start', true);
-		cover.animation.finishCallback = () -> cover.animation.play('loop');
-		popCover(note, strum, cover, rgb);
-		if (flickers) {
-			flickered = true;
-			for (child in note.tail) {
-				if (child.visible) {
-					child.visible = false;
-					flicker.push(child);
-				}
 			}
-		}
+		} else if (note.tail.length > 0) popCover(note, strum, cover, rgb);
 	}
-}
-function getStrum(hit, data) return (hit ? game.playerStrums : game.opponentStrums).members[data];
-function opponentNoteHitPre(note) {
-	coverLogic(note, StringTools.endsWith(note.animation.name, 'end'));
-	if (note.isSustainNote) {
-		if (!note.noAnimation) {
-			note.noAnimation = true;
-			getCharacter(note).holdTimer = 0;
-		}
-	} else {
-		var strum = getStrum(false, note.noteData);
+	function opponentNoteHit(note) {
+		coverLogic(note, false);
+		if (note.isSustainNote) {
+			if (note.extraData.get('anim')) game.dad.holdTimer = 0;
+		} else {
+		var strum = inArray(game.opponentStrums.members, note.noteData);
 		if (strum != null) {
 			strum.playAnim('hit', true);
+			strum.resetAnim = (note.tail.length > 0 ? note.sustainLength : Conductor.crochet) / 1000;
 			if (note.tail.length > 0) {
 				strum.animation.finishCallback = () -> {
 					strum.playAnim('hit', true);
 					strum.animation.finishCallback = null;
+					}
 				}
 			}
 		}
 	}
-	return;
-}
-function opponentNoteHit(note) {
-	var strum = getStrum(false, note.noteData);
-	strum.resetAnim = (note.isSustainNote ? 0 : Conductor.crochet * .001);
-	return;
-}
 function makeGhostNote(note) {
 	var ghost = new Note(note.strumTime, note.noteData, null, note.isSustainNote);
 	ghost.noteType = 'MISSED_NOTE';
@@ -262,34 +161,30 @@ function makeGhostNote(note) {
 	ghost.rgbShader.g = int_desat(ghost.rgbShader.g, 0.5);
 	ghost.rgbShader.b = int_desat(ghost.rgbShader.b, 0.5);
 }
-function getCharacter(note)
-	return (note.gfNote ? game.gf : (note.mustPress ? game.boyfriend : game.dad));
-function goodNoteHitPre(note) {
-	var strum = getStrum(true, note.noteData);
-	if (note.isSustainNote) {
-		if (!note.noAnimation) {
-			note.noAnimation = true;
-			getCharacter(note).holdTimer = 0;
-		}
-	}
-	return;
-}
 function goodNoteHit(note) {
-	var strum = getStrum(true, note.noteData);
-	if (!note.isSustainNote && strum != null) {
-		playHits.push({strum: strum, hold: note.sustainLength > 0});
-		if (note.tail.length == 0 && !game.cpuControlled) {
-			new FlxTimer().start(Conductor.crochet * .001, () -> {
-				if (strum.animation.name == 'hit')
-					strum.playAnim('pressed', true);
-			});
-		}
-		strum.resetAnim = (note.tail.length > 0 || (game.cpuControlled && note.tail.length == 0) ? (Conductor.crochet * .001) : 0);
+	var strum = inArray(game.playerStrums.members, note.noteData);
+	if (note.isSustainNote) {
+		if (note.extraData.get('anim')) game.boyfriend.holdTimer = 0;
+		if (strum != null && strum.resetAnim > 0) strum.resetAnim = Conductor.crochet / 1000;
+	} else if (strum != null) {
+	playHits.push({strum: strum, hold: note.sustainLength > 0});
+	for (press in playPresses) if (press.strum == strum) playPresses.remove(press);
+	if (note.tail.length == 0) playPresses.push({strum: strum, time: note.strumTime + Conductor.crochet});
+	strum.resetAnim = ((note.tail.length > 0 || game.cpuControlled) ? Conductor.crochet : 0) / 1000;
 	}
-	coverLogic(note, StringTools.endsWith(note.animation.name, 'end'));
-	return;
+	coverLogic(note, false);
+	return Function_Continue;
 }
-function onUpdatePost(elapsed:Float) {
+function onUpdate() {
+	for (n in game.notes) {
+		if (n.clipRect != null && n.clipRect.height <= 0 && !n.extraData.get('consumed') && StringTools.endsWith(n.animation.curAnim.name, 'end')) {
+			n.extraData.set('consumed', true); //prevent it running more than once
+			coverLogic(n, true);
+		}
+	}
+	return Function_Continue;
+}
+function onUpdatePost(e) {
 	while (playHits.length > 0) { //psych engine is a meanie
 		var i = playHits.shift();
 		var strum = i.strum;
@@ -302,15 +197,28 @@ function onUpdatePost(elapsed:Float) {
 			}
 		}
 	}
+	for (press in playPresses) {
+		if (Conductor.songPosition >= press.time) {
+			var strum = press.strum;
+			if (strum != null && strum.animation.curAnim.name == 'hit' && strum.resetAnim <= 0) {
+				strum.animation.finishCallback = null;
+				strum.playAnim('pressed');
+				strum.resetAnim = 0;
+			}
+			playPresses.remove(press);
+		}
+	}
 	for (cover in holdCovers) {
 		var instance = cover.cover;
 		var strum = cover.strum;
 		if (strum != null) {
 			instance.setPosition(strum.x, strum.y);
-			instance.alpha = (strum.alpha > 0 && strum.visible ? 1 : 0);
-			if (strum.animation.name != 'hit') instance.visible = false;
+			instance.alpha = (strum.alpha > 0 ? 1 : 0);
+			if (strum.animation.curAnim.name != 'hit') instance.visible = false;
 		}
+		if (instance.animation.curAnim.finished) instance.animation.play('loop', true);
 	}
+	return Function_Continue;
 }
 
 //RGB FUNCTIONS CAUSE CUSTOMFLXCOLOR IS ASS
@@ -321,6 +229,7 @@ function int_desat(col, sat) { //except this one
 	var rgb = hsv2rgb(hsv);
 	return FlxColor.fromRGBFloat(rgb.red, rgb.green, rgb.blue);
 }
+function int2rgbfloat(col) return [((col >> 16) & 0xff) / 255, ((col >> 8) & 0xff) / 255, (col & 0xff) / 255]; //or this one (lol)
 function int2rgb(col) return {red: (col >> 16) & 0xff, green: (col >> 8) & 0xff, blue: col & 0xff}; //or this one
 function rgb2hsv(col) {
 	var hueRad = Math.atan2(Math.sqrt(3) * (col.green - col.blue), 2 * col.red - col.green - col.blue);
@@ -334,17 +243,17 @@ function rgb2hsv(col) {
 function hsv2rgb(col) {
 	var chroma = col.brightness * col.saturation;
 	var match = col.brightness - chroma;
-	
+
 	var hue:Float = col.hue % 360;
 	var hueD = hue / 60;
 	var mid = chroma * (1 - Math.abs(hueD % 2 - 1)) + match;
 	chroma += match;
-	
+
 	chroma /= 255; //joy emoji
 	mid /= 255;
 	match /= 255;
 
-	switch (Math.floor(hueD)) {
+	switch (Std.int(hueD)) {
 		case 0: return {red: chroma, green: mid, blue: match};
 		case 1: return {red: mid, green: chroma, blue: match};
 		case 2: return {red: match, green: chroma, blue: mid};
