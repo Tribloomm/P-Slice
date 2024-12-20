@@ -16,7 +16,7 @@ class PauseSubState extends MusicBeatSubstate
 	var grpMenuShit:FlxTypedGroup<Alphabet>;
 
 	var menuItems:Array<String> = [];
-	var menuItemsOG:Array<String> = ['Resume', 'Restart Song', 'Change Difficulty', 'Options', 'Exit to menu'];
+	var menuItemsOG:Array<String> = ['Resume', 'Restart Song','Options', 'Exit to menu'];
 	var difficultyChoices = [];
 	var curSelected:Int = 0;
 
@@ -399,6 +399,8 @@ class PauseSubState extends MusicBeatSubstate
 
 		for (num => str in menuItems) {
 			var item = new Alphabet(90, 320, Language.getPhrase('pause_$str', str), true);
+			item.changeX = false;
+			item.screenCenter(X);
 			item.isMenuItem = true;
 			item.targetY = num;
 			grpMenuShit.add(item);
