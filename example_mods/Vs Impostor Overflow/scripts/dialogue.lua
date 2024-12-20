@@ -197,18 +197,23 @@ function initDialogue()
 
     makeSpr('box', 'dialogueV4/dialogueBox', 0, 431.45, {
         {'bf',      'dialog frame', '0'},
+        {'bfg',     'dialog frame', '0'},
+        {'cyan',    'dialog frame', '0'},
         {'gf',      'dialog frame', '1'},
         {'red',     'dialog frame', '2'},
+        {'tomato',  'dialog frame', '2'},
         {'gc',      'dialog frame', '3'},
         {'gi',      'dialog frame', '3'},
         {'y',       'dialog frame', '4'},
         {'wi',      'dialog frame', '5'},
         {'berry',   'dialog frame', '6'},
         {'maroon',  'dialog frame', '7'},
+        {'gfg',     'dialog frame', '7'},
         {'gray',    'dialog frame', '8'},
         {'pink',    'dialog frame', '9'},
         {'pi',      'dialog frame', '9'},
         {'war',     'dialog frame', '10'},
+        {'rhm',     'dialog frame', '10'},
         {'jelq',    'dialog frame', '11'}
     })
     setObjectCamera('box', 'other')
@@ -495,10 +500,22 @@ function Dinnit()
         curIcon = 'yellow'
         boxChar = 'Yellow'
         charImg = 'yellow'
+    elseif curChar == 'cyan' then
+        curIcon = 'cyan'
+        boxChar = 'Cyan'
+        charImg = 'cyan'
     elseif curChar == 'wi' then
         curIcon = 'white'
         boxChar = 'White'
         charImg = 'white'
+    elseif curChar == 'tomato' then
+        curIcon = 'tomato'
+        boxChar = 'Tomatungus'
+        charImg = 'tomato'
+    elseif curChar == 'rhm' then
+        curIcon = 'rhm'
+        boxChar = 'Right Hand Man'
+        charImg = 'rhm'
     elseif curChar == 'gi' then
         curIcon = 'impostor3'
         boxChar = 'Green'
@@ -507,7 +524,7 @@ function Dinnit()
         boxChar = 'Maroon'
         charImg = 'maroon'
     elseif curChar == 'berry' then
-        boxChar = 'Berry'
+        boxChar = 'Bucken Berry'
         charImg = 'berry'
     elseif curChar == 'pink' then
         boxChar = 'Pink'
@@ -526,6 +543,16 @@ function Dinnit()
         curSound = 'gf'
         speaker = 'portraitMid'
         boxChar = 'Girlfriend'
+    elseif curChar == 'gfg' then
+        curSound = 'gf'
+        charImg = 'gfg'
+        speaker = 'portraitMid'
+        boxChar = 'Girlfriend'
+    elseif curChar == 'bfg' then
+        curSound = 'bf'
+        speaker = 'portraitRight'
+        charImg = 'bfg'
+        boxChar = 'Boyfriend'
     else
         curSound = 'bf'
         speaker = 'portraitRight'
