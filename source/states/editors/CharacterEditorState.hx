@@ -82,16 +82,16 @@ class CharacterEditorState extends MusicBeatState implements PsychUIEventHandler
 		silhouettes = new FlxSpriteGroup();
 		add(silhouettes);
 
-		var dad:FlxSprite = new FlxSprite(dadPosition.x, dadPosition.y).loadGraphic(Paths.image('editors/silhouetteDad'));
+		var dad:FlxSprite = new FlxSprite(dadPosition.x + 78, dadPosition.y - 169).loadGraphic(Paths.image('editors/silhouetteDad'));
 		dad.antialiasing = ClientPrefs.data.antialiasing;
 		dad.active = false;
-		dad.offset.set(-4, 1);
+		dad.offset.set(152, -539);
 		silhouettes.add(dad);
 
 		var boyfriend:FlxSprite = new FlxSprite(bfPosition.x, bfPosition.y + 350).loadGraphic(Paths.image('editors/silhouetteBF'));
 		boyfriend.antialiasing = ClientPrefs.data.antialiasing;
 		boyfriend.active = false;
-		boyfriend.offset.set(-6, 2);
+		boyfriend.offset.set(-5, 1);
 		silhouettes.add(boyfriend);
 
 		silhouettes.alpha = 0.25;
@@ -1094,11 +1094,6 @@ class CharacterEditorState extends MusicBeatState implements PsychUIEventHandler
 		#else
 		var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
 		add(bg);
-
-		var stageFront:BGSprite = new BGSprite('stagefront', -650, 600, 0.9, 0.9);
-		stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
-		stageFront.updateHitbox();
-		add(stageFront);
 		#end
 
 		dadPosition.set(100, 100);
