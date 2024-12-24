@@ -1847,7 +1847,7 @@
 	"gameOverLoop": "bf dead impostor game over",
 	"gameOverChar": "bfdi",
 	"song": "Mechanized",
-	"gameOverEnd": "bf dead impostor game over",
+	"gameOverEnd": "bf dead impostor game over end",
 	"needsVoices": true,
 	"stage": "BGRHM dead",
 	"artist": "Topazowy Golem",

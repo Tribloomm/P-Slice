@@ -1,5 +1,6 @@
 {
 	"song": {
+		"gameOverChar": "Green dead",
 		"artist": null,
 		"speed": 3,
 		"stage": "Void",
